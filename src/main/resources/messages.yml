@@ -1,0 +1,4 @@
+Player:
+  NoPermission: '%reports_prefix%&4You don''t have Permissions to do that!'
+Console:
+  ExecutesPlayerCommand: '%reports_prefix%&4You have to be a Player!'

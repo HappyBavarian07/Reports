@@ -1,0 +1,11 @@
+MySQL:
+  enabled: false
+  Prefix: '&7[&5My&6SQL&7] '
+  host: 'host'
+  port: 3306
+  database: 'database'
+  username: 'username'
+  password: 'password'
+  tablePrefix: 'report_'
+Plugin:
+  Prefix: '&f[&cReports&f] &2'

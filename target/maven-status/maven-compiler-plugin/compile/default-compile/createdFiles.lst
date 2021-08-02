@@ -1,0 +1,14 @@
+com\happybavarian07\reportplugin\utils\ReportPlaceholderExpansion.class
+com\happybavarian07\reportplugin\handling\MySQLReportHandler.class
+com\happybavarian07\reportplugin\commands\ReportsCommand.class
+com\happybavarian07\reportplugin\commands\ReportCommand.class
+com\happybavarian07\reportplugin\reports\MessagesManager.class
+com\happybavarian07\reportplugin\handling\ReportFile.class
+com\happybavarian07\reportplugin\reports\Report.class
+com\happybavarian07\reportplugin\handling\MySQL.class
+com\happybavarian07\reportplugin\reports\ReportPlugin.class
+com\happybavarian07\reportplugin\handling\ReportFileHandler.class
+com\happybavarian07\reportplugin\reports\ReportInv.class
+com\happybavarian07\reportplugin\reports\ReportStatus.class
+com\happybavarian07\reportplugin\utils\ChatUtils.class
+com\happybavarian07\reportplugin\utils\StartUpLogger.class

@@ -1,0 +1,36 @@
+name: Reports
+version: ${project.version}
+main: com.happybavarian07.reportplugin.reports.ReportPlugin
+api-version: 1.13
+authors: [ HappyBavarian07 ]
+description: A Plugin to Report Players
+depend:
+  - PlaceholderAPI
+
+commands:
+  report:
+    usage: /report <Player|reload> <Reason|<Config|File|MySQL|Plugin>>
+    description: The Main Command of the Plugin
+  reports:
+    usage: /reports <clear|Player>
+
+permissions:
+  reports.*:
+    default: op
+    children:
+      reports.report:
+        default: true
+      reports.list:
+        default: op
+      reports.listlayer:
+        default: op
+      reports.review:
+        default: op
+      reports.clear:
+        default: op
+      reports.reload:
+        default: op
+        children:
+          reports.reload.config: true
+          reports.reload.mysql: true
+          reports.reload.plugin: true
